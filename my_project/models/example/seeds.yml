@@ -5,3 +5,4 @@ seeds:
     raw_scraped_data:
       +file_format: csv
       +path: data/cleaned_scraped_data.csv
+
