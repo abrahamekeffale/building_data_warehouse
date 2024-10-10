@@ -1,0 +1,4 @@
+nest_asyncio
+asyncio
+telethon
+pandas 
