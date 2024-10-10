@@ -28,3 +28,84 @@ Happy modeling!
 [0m21:43:24.578226 [debug] [MainThread]: Command `dbt init` succeeded at 21:43:24.578226 after 426.39 seconds
 [0m21:43:24.580231 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002064AD07B60>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002064AB279E0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002064A3DBF20>]}
 [0m21:43:24.580231 [debug] [MainThread]: Flushing usage events
+[0m21:46:44.774755 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000196EE3A72C0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000196EE342AB0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000196EE463C20>]}
+
+
+============================== 21:46:44.779394 | 7316e256-fb6e-48db-88cb-56e5f35fef38 ==============================
+[0m21:46:44.779394 [info ] [MainThread]: Running with dbt=1.8.7
+[0m21:46:44.780507 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'log_cache_events': 'False', 'write_json': 'True', 'partial_parse': 'True', 'cache_selected_only': 'False', 'warn_error': 'None', 'version_check': 'True', 'fail_fast': 'False', 'log_path': 'logs', 'debug': 'False', 'profiles_dir': 'C:\\Users\\HP\\.dbt', 'use_colors': 'True', 'use_experimental_parser': 'False', 'empty': 'False', 'quiet': 'False', 'no_print': 'None', 'log_format': 'default', 'invocation_command': 'dbt run', 'introspect': 'True', 'static_parser': 'True', 'target_path': 'None', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'send_anonymous_usage_stats': 'True'}
+[0m21:46:44.782386 [error] [MainThread]: Encountered an error:
+Runtime Error
+  No dbt_project.yml found at expected path C:\Users\HP\week 7\building_data_warehouse\dbt_project.yml
+  Verify that each entry within packages.yml (and their transitive dependencies) contains a file named dbt_project.yml
+  
+[0m21:46:44.785378 [debug] [MainThread]: Command `dbt run` failed at 21:46:44.785378 after 0.20 seconds
+[0m21:46:44.786376 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000196EE343650>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000196EE52FD40>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000196EE3A72C0>]}
+[0m21:46:44.786931 [debug] [MainThread]: Flushing usage events
+[0m21:48:58.846528 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002280C3C2330>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002280B916ED0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000022809E18B30>]}
+
+
+============================== 21:48:58.855547 | 8a7c4ef5-2d84-4180-999c-d769ca92ad5f ==============================
+[0m21:48:58.855547 [info ] [MainThread]: Running with dbt=1.8.7
+[0m21:48:58.858546 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'write_json': 'True', 'log_cache_events': 'False', 'partial_parse': 'True', 'cache_selected_only': 'False', 'profiles_dir': 'C:\\Users\\HP\\.dbt', 'fail_fast': 'False', 'debug': 'False', 'log_path': 'logs', 'warn_error': 'None', 'version_check': 'True', 'use_colors': 'True', 'use_experimental_parser': 'False', 'empty': 'None', 'quiet': 'False', 'no_print': 'None', 'log_format': 'default', 'static_parser': 'True', 'introspect': 'True', 'invocation_command': 'dbt test', 'target_path': 'None', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'send_anonymous_usage_stats': 'True'}
+[0m21:48:58.859495 [error] [MainThread]: Encountered an error:
+Runtime Error
+  No dbt_project.yml found at expected path C:\Users\HP\week 7\building_data_warehouse\dbt_project.yml
+  Verify that each entry within packages.yml (and their transitive dependencies) contains a file named dbt_project.yml
+  
+[0m21:48:58.864849 [debug] [MainThread]: Command `dbt test` failed at 21:48:58.864481 after 0.21 seconds
+[0m21:48:58.865476 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002280BDEB1A0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002280C6F6CC0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002280BF72780>]}
+[0m21:48:58.866738 [debug] [MainThread]: Flushing usage events
+[0m22:02:21.555128 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000022B5EED58B0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000022B5DD60BF0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000022B6161DEE0>]}
+
+
+============================== 22:02:21.561112 | 92f77c6d-50f8-4bf3-b1f0-a87ca6cfb955 ==============================
+[0m22:02:21.561112 [info ] [MainThread]: Running with dbt=1.8.7
+[0m22:02:21.563106 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'log_cache_events': 'False', 'write_json': 'True', 'partial_parse': 'True', 'cache_selected_only': 'False', 'warn_error': 'None', 'version_check': 'True', 'profiles_dir': 'C:\\Users\\HP\\.dbt', 'log_path': 'logs', 'debug': 'False', 'fail_fast': 'False', 'use_colors': 'True', 'use_experimental_parser': 'False', 'no_print': 'None', 'quiet': 'False', 'empty': 'None', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'introspect': 'True', 'invocation_command': 'dbt seed', 'static_parser': 'True', 'target_path': 'None', 'log_format': 'default', 'send_anonymous_usage_stats': 'True'}
+[0m22:02:21.564105 [error] [MainThread]: Encountered an error:
+Runtime Error
+  No dbt_project.yml found at expected path C:\Users\HP\week 7\building_data_warehouse\dbt_project.yml
+  Verify that each entry within packages.yml (and their transitive dependencies) contains a file named dbt_project.yml
+  
+[0m22:02:21.568093 [debug] [MainThread]: Command `dbt seed` failed at 22:02:21.568093 after 0.18 seconds
+[0m22:02:21.569091 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000022B60C8F2F0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000022B5EED58B0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000022B616FC2F0>]}
+[0m22:02:21.569091 [debug] [MainThread]: Flushing usage events
+[0m22:02:21.786601 [debug] [MainThread]: Error sending anonymous usage statistics. Disabling tracking for this execution. If you wish to permanently disable tracking, see: https://docs.getdbt.com/reference/global-configs#send-anonymous-usage-stats.
+[0m22:05:14.905220 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000167F544F110>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000167F7A68290>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000167F7F2C200>]}
+
+
+============================== 22:05:14.911199 | d0f7d23f-0080-4636-a1f1-58fc2929b496 ==============================
+[0m22:05:14.911199 [info ] [MainThread]: Running with dbt=1.8.7
+[0m22:05:14.912209 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'write_json': 'True', 'log_cache_events': 'False', 'partial_parse': 'True', 'cache_selected_only': 'False', 'profiles_dir': 'C:\\Users\\HP\\.dbt', 'fail_fast': 'False', 'warn_error': 'None', 'log_path': 'logs', 'debug': 'False', 'version_check': 'True', 'use_colors': 'True', 'use_experimental_parser': 'False', 'empty': 'None', 'quiet': 'False', 'no_print': 'None', 'log_format': 'default', 'introspect': 'True', 'static_parser': 'True', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'target_path': 'None', 'invocation_command': 'dbt init my_project', 'send_anonymous_usage_stats': 'True'}
+[0m22:05:14.978402 [info ] [MainThread]: A project called my_project already exists here.
+[0m22:05:15.003219 [debug] [MainThread]: Command `dbt init` succeeded at 22:05:15.001958 after 0.33 seconds
+[0m22:05:15.007160 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000167F7ACE9C0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000167F7FE8200>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000167F544F110>]}
+[0m22:05:15.011977 [debug] [MainThread]: Flushing usage events
+[0m22:05:43.570341 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000253AD7DC0B0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000253AD7DF290>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000253AD7DFDD0>]}
+
+
+============================== 22:05:43.578327 | 0e813a7c-60c4-42e1-97d3-8d238ce45b32 ==============================
+[0m22:05:43.578327 [info ] [MainThread]: Running with dbt=1.8.7
+[0m22:05:43.580287 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'log_cache_events': 'False', 'write_json': 'True', 'partial_parse': 'True', 'cache_selected_only': 'False', 'profiles_dir': 'C:\\Users\\HP\\.dbt', 'debug': 'False', 'fail_fast': 'False', 'log_path': 'logs', 'warn_error': 'None', 'version_check': 'True', 'use_colors': 'True', 'use_experimental_parser': 'False', 'empty': 'None', 'quiet': 'False', 'no_print': 'None', 'log_format': 'default', 'introspect': 'True', 'invocation_command': 'dbt seed', 'static_parser': 'True', 'target_path': 'None', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'send_anonymous_usage_stats': 'True'}
+[0m22:05:43.581321 [error] [MainThread]: Encountered an error:
+Runtime Error
+  No dbt_project.yml found at expected path C:\Users\HP\week 7\building_data_warehouse\dbt_project.yml
+  Verify that each entry within packages.yml (and their transitive dependencies) contains a file named dbt_project.yml
+  
+[0m22:05:43.587263 [debug] [MainThread]: Command `dbt seed` failed at 22:05:43.586419 after 0.13 seconds
+[0m22:05:43.588261 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000253A9E480E0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000253ACB8FA40>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000253AD745F40>]}
+[0m22:05:43.589258 [debug] [MainThread]: Flushing usage events
+[0m22:06:18.647787 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000026FB8D68A40>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000026FBB04CBC0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000026FBB04D370>]}
+
+
+============================== 22:06:18.652810 | 0acc8b85-c134-4b5c-8e20-0ac44cc48602 ==============================
+[0m22:06:18.652810 [info ] [MainThread]: Running with dbt=1.8.7
+[0m22:06:18.654769 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'log_cache_events': 'False', 'write_json': 'True', 'partial_parse': 'True', 'cache_selected_only': 'False', 'warn_error': 'None', 'fail_fast': 'False', 'version_check': 'True', 'log_path': 'logs', 'profiles_dir': 'C:\\Users\\HP\\.dbt', 'debug': 'False', 'use_colors': 'True', 'use_experimental_parser': 'False', 'empty': 'None', 'quiet': 'False', 'no_print': 'None', 'log_format': 'default', 'invocation_command': 'dbt seed', 'static_parser': 'True', 'introspect': 'True', 'target_path': 'None', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'send_anonymous_usage_stats': 'True'}
+[0m22:06:18.654769 [error] [MainThread]: Encountered an error:
+Runtime Error
+  No dbt_project.yml found at expected path C:\Users\HP\week 7\building_data_warehouse\dbt_project.yml
+  Verify that each entry within packages.yml (and their transitive dependencies) contains a file named dbt_project.yml
+  
+[0m22:06:18.657760 [debug] [MainThread]: Command `dbt seed` failed at 22:06:18.657760 after 0.18 seconds
+[0m22:06:18.658795 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000026FBB23B440>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000026FBB6D56A0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000026FB8D68A40>]}
+[0m22:06:18.658795 [debug] [MainThread]: Flushing usage events
