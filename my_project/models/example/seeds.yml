@@ -1,8 +1,0 @@
-version: 2
-
-seeds:
-  my_project:
-    raw_scraped_data:
-      +file_format: csv
-      +path: data/cleaned_scraped_data.csv
-

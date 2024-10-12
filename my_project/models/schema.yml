@@ -1,0 +1,8 @@
+ version: 2
+ sources:
+ - name: dbt_project
+   schema: public
+   tables: 
+    - name: scrapped
+
+
